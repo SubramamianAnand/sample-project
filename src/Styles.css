@@ -1,0 +1,72 @@
+/* styles.css */
+
+#brandStory {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fed7aa; /* Equivalent to bg-orange-200 */
+    padding: 2.5rem 2.5rem; /* Equivalent to px-10 py-10 */
+    gap: 2.5rem; /* Equivalent to gap-10 */
+  }
+  
+  @media (min-width: 768px) {
+    #brandStory {
+      flex-direction: row;
+      padding: 2.5rem 5rem; /* Equivalent to md:px-20 */
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    #brandStory {
+      padding: 5rem 8rem; /* Equivalent to lg:px-32 lg:py-20 */
+    }
+  }
+  
+  .brandTextContainer {
+    width: 100%;
+    margin-bottom: 0.75rem; /* space-y-6 */
+  
+    @media (min-width: 768px) {
+      width: 80%;
+    }
+  
+    @media (min-width: 1024px) {
+      width: 40%;
+    }
+  }
+  
+  .brandTitle {
+    font-size: 1.875rem; /* Equivalent to text-3xl */
+    font-weight: 600; /* Equivalent to font-semibold */
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0.75rem; /* space-y-6 */
+  
+    @media (min-width: 768px) {
+      font-size: 3rem; /* Equivalent to md:text-5xl */
+    }
+  }
+  
+  .brandDescription {
+    font-size: 1.25rem; /* Equivalent to text-xl */
+    font-weight: 500; /* Equivalent to font-medium */
+    line-height: 1.25rem; /* Equivalent to leading-5 */
+  }
+  
+  #brandImg {
+    max-width: 700px;
+    border-bottom-width: 6px;
+    border-right-width: 6px;
+    border-color: black;
+    padding-right: 1rem; /* Equivalent to pr-4 */
+    padding-bottom: 1rem; /* Equivalent to pb-4 */
+    width: 100%;
+  }
+  
+  @media (min-width: 768px) {
+    #brandImg {
+      order: -1; /* Equivalent to md:order-first */
+    }
+  }
+  
