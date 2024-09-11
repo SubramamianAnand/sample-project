@@ -60,8 +60,7 @@ const BrandSection = () => {
         <h1 className="brandTitle">Brand Story</h1>
         <p className="brandDescription">
           We are passionate about creating a serene escape through the art of
-          lofi music. Our journey began with a shared love for relaxation,
-          focus, and the subtle beauty of calming melodies.
+          lofi music.
         </p>
       </div>
       <div id="brandImg">
